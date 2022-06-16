@@ -1,0 +1,155 @@
+
+
+*{
+    margin: 0;
+}
+.container{
+    width:700px ;
+    height:1030px ;
+
+    background-size: cover;
+
+    display: flex;
+    
+}
+
+.blockblue{
+    position: absolute;
+
+}
+.image{
+    height: 100px;
+}
+
+.shape0{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+}
+.shape1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+
+}
+.shape2{
+    height: 50px;
+    width: 50px;
+
+}
+
+.addshape{
+    height:0px;
+    width: 0px;
+
+    background: rgba(241, 241, 241, 0.556); 
+}
+
+.obstacle0{
+    position: absolute;
+    height:300px;
+    width: 15px;
+    margin-left: 650px;
+    margin-top: 680px;
+
+    border: 6px solid black;
+    background: rgba(21, 205, 21, 0.556); 
+}
+.obstacle1{
+    position: absolute;
+    height:450px;
+    width: 15px;
+    margin-left: 650px;
+    margin-top: 530px;
+
+    border: 6px solid black;
+    background: rgba(21, 205, 21, 0.556); 
+}
+.obstacle2{
+    position: absolute;
+    height:800px;
+    width: 15px;
+    margin-left: 650px;
+    margin-top: 180px;
+
+    border: 6px solid black;
+    background: rgba(21, 205, 21, 0.556); 
+}
+.obstacle3{
+    position: absolute;
+    height:100px;
+    width: 15px;
+    margin-left: 650px;
+    margin-top: px;
+
+    border: 6px solid black;
+    background: rgba(205, 21, 21, 0.556); 
+}
+.start-box{
+    position: absolute;
+    height:450px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 180px;
+    position: absolute;
+    border: 6px solid black;
+    background: rgb(25, 75, 25);  
+z-index: 1;
+    border-radius: 50px;
+    font-size: 2rem;
+    color: #fff;
+    box-shadow: 0 3px 15px rgba(0,0,0,.3);
+}
+h1{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    color: #fff;
+}
+.start-btns{
+    position: absolute;
+    margin-left: 150px; 
+    height:150px;
+    width: 150px;
+    font-size: 3rem;
+    font-family: sans-serif;
+    background: grey;
+    border: 6px solid black;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 3px 15px rgba(0,0,0,.3);
+
+}
+.bg{
+    width: 700px;
+    border: 6px solid black;
+    
+}
+.hide{
+    display: none;
+}
+.message{
+    margin-left: 120px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    color: #fff;
+}
+.deadbird{
+    margin-left: 120px;
+
+}
+.startAni{
+    margin-left: 120px;
+
+}
+.clock-pos{
+    
+    margin-top: 50px;
+    margin-left: 320px;
+    display: flex;
+    position: absolute;
+    font-size: 1rem;
+    color: #fff;
+}
